@@ -8,8 +8,7 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    
-    font-size: 66px;
+    font-size: 76px;
     letter-spacing: 100px;
     animation: jojo 2s linear infinite
 } 

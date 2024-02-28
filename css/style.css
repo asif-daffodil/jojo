@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    
+    font-size: 66px;
+    letter-spacing: 100px;
+    animation: jojo 2s linear infinite
+} 
+
+@keyframes jojo {
+    0% {
+        letter-spacing: 100px;
+        color: orange;
+        place-items: start;
+        background: url("../images/jojo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    50% {
+        letter-spacing: 50px;
+        color: white;
+        place-items: center;
+        background: url("../images/jojo2.jpg");
+        background-size: cover;
+    }
+    100% {
+        letter-spacing: 100px;
+        color: orange;
+        place-items: end;
+        background: url("../images/jojo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
